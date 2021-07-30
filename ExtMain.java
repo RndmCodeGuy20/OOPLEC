@@ -14,7 +14,7 @@ class MAIN extends ExtMain{
         ExtMain rMain;
         rMain = new ExtMain();
         rMain.run();
-        rMain = new Ext2();
-        rMain.run2();
+        Ext2 rExt2 = new Ext2();
+        rExt2.run2();
     }
 }
