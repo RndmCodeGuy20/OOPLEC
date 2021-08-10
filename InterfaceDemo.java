@@ -22,5 +22,7 @@ class PNB implements Bank {
 }
 
 /**
- * $class extends class $class implements interface $interface extends interface
+ * $class extends class
+ * $class implements interface 
+ * $interface extends interface
  */
