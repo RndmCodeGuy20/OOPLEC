@@ -1,9 +1,10 @@
 public class InterfaceDemo {
-    interface Inter1 {
-
-    };
+    
 }
 
+interface Inter1 {
+
+};
 
 /**
  * $class extends class 
