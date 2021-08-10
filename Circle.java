@@ -11,7 +11,7 @@ public class Circle {
 
     public double Area(int rad) {
         int rsq = Op.square(rad);
-        return pi*rsq;
+        return pi * rsq;
     }
 
     public static void main(String[] args) {
