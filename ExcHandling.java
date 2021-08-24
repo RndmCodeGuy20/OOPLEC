@@ -4,7 +4,8 @@ public class ExcHandling {
             int data = 100 / 0;
         } catch (ArithmeticException e) {
             System.out.println(e);
+        } finally {
+            System.out.println("rest of the code...");
         }
-        System.out.println("rest of the code...");
     }
 }
