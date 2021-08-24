@@ -5,6 +5,6 @@ public class ExcHandling {
         } catch (ArithmeticException e) {
             System.out.println(e);
         }
-        System.out.println("rest of code...");
+        System.out.println("rest of the code...");
     }
 }
