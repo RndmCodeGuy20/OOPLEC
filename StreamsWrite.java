@@ -1,6 +1,6 @@
 import java.io.FileOutputStream;
 
-public class Streams {
+public class StreamsWrite {
     public static void main(String[] args) {
         try {
 
