@@ -1,3 +1,4 @@
+import java.util.Iterator;
 import java.util.LinkedList;
 
 public class ListLinked {
@@ -42,5 +43,11 @@ public class ListLinked {
 
         System.out.println(cars.getFirst());
         System.out.println(cars.getLast());
+
+        Iterator<String> dit = cars.descendingIterator();
+
+        while (dit.hasNext()) {
+            System.out.print(dit.next() + " ");
+        }
     }
 }
