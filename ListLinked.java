@@ -31,7 +31,7 @@ public class ListLinked {
         System.out.println(cars);
 
         cars.addFirst("Audi");
-        cars.addLast("Bugati");
+        cars.addLast("Bugatti");
 
         System.out.println(cars);
 
